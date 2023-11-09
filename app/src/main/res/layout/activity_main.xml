@@ -1,0 +1,113 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFD3B7"> <!-- 전체 배경색 (노란색) -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#8BA977"
+        android:layout_alignParentTop="true"> <!-- 상단바 배너 (연두색) -->
+
+        <TextView
+            android:id="@+id/bannerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="농박사"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <!--버튼 1-->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:background="@drawable/round_button"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:text="식량작물"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <!--버튼 2-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:background="@drawable/round_button"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="130dp"
+        android:layout_toRightOf="@id/button1"
+        android:text="특용작물"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <!--버튼 3-->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:background="@drawable/round_button"
+        android:layout_below="@id/button1"
+        android:layout_alignStart="@id/button1"
+        android:layout_alignLeft="@id/button1"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="채소류"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <!--버튼 4-->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:background="@drawable/round_button"
+        android:layout_below="@id/button2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/button3"
+        android:text="과일류"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <!--버튼 5-->
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:background="@drawable/round_button"
+        android:layout_below="@id/button3"
+        android:layout_alignStart="@id/button3"
+        android:layout_alignLeft="@id/button3"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="재철농산물"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <!--버튼 6-->
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:background="@drawable/round_button"
+        android:layout_below="@id/button4"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/button5"
+        android:text="레시피"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
