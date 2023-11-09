@@ -28,7 +28,6 @@
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:background="@drawable/round_button"
-
         android:layout_marginLeft="20dp"
         android:layout_marginTop="130dp"
         android:text="식량작물"
@@ -41,7 +40,6 @@
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:background="@drawable/round_button"
-
         android:layout_marginLeft="50dp"
         android:layout_marginTop="130dp"
         android:layout_toRightOf="@id/button1"
