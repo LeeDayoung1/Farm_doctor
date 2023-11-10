@@ -91,7 +91,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="50dp"
-        android:text="재철농산물"
+        android:text="제철농산물"
         android:textSize="24sp"
         android:textStyle="bold"/>
 
