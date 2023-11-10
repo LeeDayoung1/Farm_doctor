@@ -8,7 +8,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // activity_main을 화면에 표시
-        setContentView(R.layout.activity_main);
+        // 화면에 표시
+        setContentView(R.layout.month);
     }
 }
