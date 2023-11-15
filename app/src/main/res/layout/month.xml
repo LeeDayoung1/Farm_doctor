@@ -121,7 +121,7 @@
 
             <Button
                 android:id="@+id/button10"
-                android:layout_width="155dp"
+                android:layout_width="158dp"
                 android:layout_height="155dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="30dp"
@@ -156,8 +156,8 @@
     </ScrollView>
     <ImageButton
         android:id="@+id/backbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="10dp"
@@ -167,13 +167,13 @@
 
     <ImageButton
         android:id="@+id/homebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toEndOf="@+id/backbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/backbutton"
-        android:layout_marginStart="280dp"
+        android:layout_marginStart="290dp"
         android:layout_marginBottom="10dp"
-        android:src="@android:drawable/ic_menu_rotate"
-        android:contentDescription="Go back home" />
+        android:layout_toEndOf="@+id/backbutton"
+        android:contentDescription="Go back home"
+        android:src="@drawable/home_icon" />
 
 </RelativeLayout>
