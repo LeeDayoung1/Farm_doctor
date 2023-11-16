@@ -25,5 +25,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // '과일류' 버튼 클릭 이벤트 처리
+        Button button4 = findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 'fruitActivity'를 시작하도록 변경
+                Intent intent = new Intent(MainActivity.this, fruitActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

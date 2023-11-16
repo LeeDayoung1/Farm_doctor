@@ -6,13 +6,13 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="wrap_content"
+        android:layout_width="294dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
         <!-- 테이블 헤더 -->
         <TableRow
-            android:layout_width="263dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#EFEFEF">
 
@@ -20,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="열1"
+                android:text="품목"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -28,15 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="열2"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="열3"
+                android:text="품목"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -47,129 +39,93 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터1" />
+                android:text="사과" />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터2" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터3" />
+                android:text="배" />
         </TableRow>
 
 
         <TableRow>
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터4" />
+                android:text="포도" />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터5" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터6" />
+                android:text="감귤" />
         </TableRow>
 
         <TableRow>
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터7" />
+                android:text="단감" />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터8" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터9" />
+                android:text="바나나" />
         </TableRow>
 
         <TableRow>
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터10" />
+                android:text="참다래" />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터11" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터12" />
+                android:text="파인애플" />
         </TableRow>
 
         <TableRow>
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터13" />
+                android:text="오렌지" />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터14" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터15" />
+                android:text="레몬" />
         </TableRow>
 
         <TableRow>
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="데이터16" />
+                android:text="망고" />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터17" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터18" />
         </TableRow>
 
         <TableRow
@@ -187,12 +143,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터20" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터21" />
         </TableRow>
 
         <TableRow>
@@ -208,12 +158,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터23" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터24" />
         </TableRow>
 
         <TableRow>
@@ -229,12 +173,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터26" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터27" />
         </TableRow>
 
         <TableRow
@@ -252,12 +190,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터29" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터30" />
         </TableRow>
 
         <TableRow
@@ -275,12 +207,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터32" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터33" />
         </TableRow>
 
         <TableRow
@@ -298,12 +224,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터35" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터36" />
         </TableRow>
 
         <TableRow
@@ -321,12 +241,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터38" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터39" />
         </TableRow>
 
         <TableRow
@@ -344,12 +258,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터41" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터42" />
         </TableRow>
 
         <TableRow>
@@ -365,13 +273,29 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="데이터44" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="데이터45" />
         </TableRow>
 
     </TableLayout>
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:contentDescription="Go back to previous screen" />
+
+    <ImageButton
+        android:id="@+id/homebutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/backbutton"
+        android:layout_marginStart="270dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/backbutton"
+        android:contentDescription="Go back home"
+        android:src="@drawable/home_icon" />
 </RelativeLayout>
