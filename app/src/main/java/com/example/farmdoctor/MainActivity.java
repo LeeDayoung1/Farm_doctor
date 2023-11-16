@@ -13,15 +13,36 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("MainActivity", "onCreate");
 
-        // '제철농산물' 버튼 클릭 이벤트 처리
-        Button button5 = findViewById(R.id.button5);
-        button5.setOnClickListener(new View.OnClickListener() {
+        // '식량작물' 버튼 클릭 이벤트 처리
+        Button button1 = findViewById(R.id.button1);
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 'MonthActivity'를 시작하도록 변경
-                Intent intent = new Intent(MainActivity.this, MonthActivity.class);
+                // 'foodcropActivity'를 시작하도록 변경
+                Intent intent = new Intent(MainActivity.this, foodcropActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // '특용작물' 버튼 클릭 이벤트 처리
+        Button button2 = findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 'specialcropActivity'를 시작하도록 변경
+                Intent intent = new Intent(MainActivity.this, specialcropActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // '채소류' 버튼 클릭 이벤트 처리
+        Button button3 = findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 'vegetableActivity'를 시작하도록 변경
+                Intent intent = new Intent(MainActivity.this, vegetableActivity.class);
                 startActivity(intent);
             }
         });
@@ -36,5 +57,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // '제철농산물' 버튼 클릭 이벤트 처리
+        Button button5 = findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 'MonthActivity'를 시작하도록 변경
+                Intent intent = new Intent(MainActivity.this, MonthActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
