@@ -43,6 +43,10 @@
             android:name=".vegetableActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".guideActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
     </application>
 
 </manifest>
