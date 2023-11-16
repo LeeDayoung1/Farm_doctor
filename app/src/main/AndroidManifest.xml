@@ -31,6 +31,18 @@
             android:name=".fruitActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".foodcropActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".specialcropActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".vegetableActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
     </application>
 
 </manifest>
