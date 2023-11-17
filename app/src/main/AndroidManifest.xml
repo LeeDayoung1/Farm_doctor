@@ -44,7 +44,19 @@
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light" />
         <activity
-            android:name=".guideActivity"
+            android:name=".guideFoodcropActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".guideFruitActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".guideSpecialcropActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".guideVegetableActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light" />
     </application>

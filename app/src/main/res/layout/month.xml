@@ -156,8 +156,8 @@
     </ScrollView>
     <ImageButton
         android:id="@+id/backbutton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="10dp"
@@ -167,8 +167,8 @@
 
     <ImageButton
         android:id="@+id/homebutton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignTop="@+id/backbutton"
         android:layout_marginStart="290dp"
         android:layout_marginBottom="10dp"

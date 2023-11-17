@@ -41,7 +41,7 @@ public class fruitActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // 'button1'을 시작하도록 변경
-                Intent intent = new Intent(fruitActivity.this, guideActivity.class);
+                Intent intent = new Intent(fruitActivity.this, guideFruitActivity.class);
                 startActivity(intent);
             }
         });
