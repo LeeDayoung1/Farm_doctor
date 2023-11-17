@@ -12,10 +12,10 @@
         android:background="#FFFFFF"
         android:gravity="center"
         android:padding="10dp"
-        android:text="품목"
+        android:text="특용작물 품목"
+        android:textColor="#000000"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="#000000"/>
+        android:textStyle="bold" />
 
 
     <ScrollView
