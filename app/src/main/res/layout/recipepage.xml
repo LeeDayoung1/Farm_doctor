@@ -67,13 +67,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:layout_marginBottom="548dp"
-                    android:text="<재료>"
+                    android:text="&lt;재료&gt;"
                     android:textColor="#404040"
                     android:textSize="20sp"
                     android:textStyle="normal"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView" />
+
 
                 <TextView
                     android:id="@+id/textView16"
@@ -94,7 +95,7 @@
                     android:layout_height="282dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="100dp"
-                    android:text="1. ~~~~\n2. ~~~~ \n3. ~~~"
+                    android:text="@string/recipe_steps"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="normal"
@@ -102,6 +103,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
         <!-- 홈으로 가기 버튼 -->
