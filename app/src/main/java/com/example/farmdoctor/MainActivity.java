@@ -69,6 +69,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // '레시피' 버튼 클릭 이벤트 처리
+        Button button6 = findViewById(R.id.button6);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 'recipekindActivity'를 시작하도록 변경
+                Intent intent = new Intent(MainActivity.this, recipeKindActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }
