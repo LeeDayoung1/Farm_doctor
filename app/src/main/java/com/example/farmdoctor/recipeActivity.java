@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class recipeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.guidefruit);
+        setContentView(R.layout.recipepage);
 
         // 'homebutton' 버튼 클릭 이벤트 처리
         ImageButton homeButton = findViewById(R.id.homebutton);

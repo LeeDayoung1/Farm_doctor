@@ -1,18 +1,39 @@
 package com.example.farmdoctor;
+
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
 public class MainActivity extends AppCompatActivity {
+
+    TextView text;
+    Button show;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        text = (TextView) findViewById(R.id.bannerTextView);
+        show = (Button) findViewById(R.id.button6);
+
+        show.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                new Task().execute();
+            }
+        });
 
         // '식량작물' 버튼 클릭 이벤트 처리
         Button button1 = findViewById(R.id.button1);
@@ -68,6 +89,50 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+/*
+        // '레시피' 버튼 클릭 이벤트 처리
+        Button button6 = findViewById(R.id.button6);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 'recipeActivity'를 시작하도록 변경
+                Intent intent = new Intent(MainActivity.this, recipeActivity.class);
+                startActivity(intent);
+            }
+        });
+*/
+
+
+    }
+
+    class Task extends AsyncTask<Void, Void, Void> {
+        String records = "", error = "";
+
+        @Override
+        protected Void doInBackground(Void...voids) {
+            try{
+                Class.forName("com.mysql.jdbc.Driver");
+                Connection connection = DriverManager.getConnection("jdbc:mysql://192.168.0.39:3306/farmer", "yeon", "jeongyeon");
+                Statement statement = connection.createStatement();
+                ResultSet resultSet = statement.executeQuery("USE farmer SELECT category FROM category WHERE category_code = 100");
+
+                while(resultSet.next()){
+                    records = resultSet.getString(1);
+                }
+            }
+            catch(Exception e){
+                error = e.toString();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            Log.d("MySQLAsyncTask", "onPostExecute: " + records);
+            text.setText(records);
+            super.onPostExecute(aVoid);
+        }
 
 
     }
