@@ -54,7 +54,7 @@
                         android:layout_marginBottom="616dp"
                         android:text="꽈리고추"
                         android:textColor="@color/black"
-                        android:textSize="40sp"
+                        android:textSize="30sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
