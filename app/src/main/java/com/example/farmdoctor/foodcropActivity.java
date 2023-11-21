@@ -4,9 +4,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class foodcropActivity extends AppCompatActivity {
+    public static String keyItemCode, keyKindCode, keyRanks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,11 +38,14 @@ public class foodcropActivity extends AppCompatActivity {
             }
         });
 
-        // 'button1' 버튼 클릭 이벤트 처리
+        // 'button1 : 쌀 - 중품' 버튼 클릭 이벤트 처리
         Button button1 = findViewById(R.id.button1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                keyItemCode = "111";
+                keyKindCode = "01";
+                keyRanks = "상품";
                 // 'button1'을 시작하도록 변경
                 Intent intent = new Intent(foodcropActivity.this, guideFoodcropActivity.class);
                 startActivity(intent);

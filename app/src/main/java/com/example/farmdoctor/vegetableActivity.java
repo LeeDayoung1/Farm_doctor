@@ -7,11 +7,12 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class vegetableActivity extends AppCompatActivity {
+    public static String keyItemCode, keyKindCode, keyRanks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.vegetablepage_1);
+        setContentView(R.layout.vegetable_page_1);
 
         // 'homebutton' 버튼 클릭 이벤트 처리
         ImageButton homeButton = findViewById(R.id.homebutton);
@@ -40,6 +41,9 @@ public class vegetableActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                keyItemCode = "211";
+                keyKindCode = "03";
+                keyRanks = "상품";
                 // 'button1'을 시작하도록 변경
                 Intent intent = new Intent(vegetableActivity.this, guideVegetableActivity.class);
                 startActivity(intent);

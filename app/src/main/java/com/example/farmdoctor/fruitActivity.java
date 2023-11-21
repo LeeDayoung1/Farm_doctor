@@ -8,10 +8,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class fruitActivity extends AppCompatActivity {
 
+    public static String keyItemCode, keyKindCode, keyRanks;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fruitpage_1);
+        setContentView(R.layout.fruit_page_1);
 
         // 'homebutton' 버튼 클릭 이벤트 처리
         ImageButton homeButton = findViewById(R.id.homebutton);
@@ -40,11 +42,13 @@ public class fruitActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                keyItemCode = "411";
+                keyKindCode = "05";
+                keyRanks = "상품";
                 // 'button1'을 시작하도록 변경
                 Intent intent = new Intent(fruitActivity.this, guideFruitActivity.class);
                 startActivity(intent);
             }
         });
-
     }
 }
