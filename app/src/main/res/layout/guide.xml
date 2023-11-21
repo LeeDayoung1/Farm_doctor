@@ -43,12 +43,14 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView15"
+                    app:layout_constraintStart_toStartOf="@+id/textView15">
 
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="wrap_content"
-                        android:layout_height="58dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginBottom="616dp"
                         android:text="꽈리고추"
                         android:textColor="@color/black"
@@ -62,48 +64,75 @@
                         android:id="@+id/imageView"
                         android:layout_width="180dp"
                         android:layout_height="180dp"
-                        android:layout_marginBottom="408dp"
+                        android:layout_marginBottom="360dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
                         app:layout_constraintStart_toStartOf="parent"
                         tools:srcCompat="@tools:sample/avatars" />
 
                     <TextView
                         android:id="@+id/textView15"
                         android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:layout_marginBottom="588dp"
-                        android:text="100g"
+                        android:layout_height="wrap_content"
+                        android:text="단위 입력"
                         android:textColor="#404040"
                         android:textSize="20sp"
                         android:textStyle="normal"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintStart_toEndOf="@+id/textView2" />
+                        app:layout_constraintStart_toEndOf="@+id/textView2"
+                        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_marginBottom="588dp"
+                        android:layout_height="wrap_content"
                         android:text="단위 : "
                         android:textColor="#404040"
                         android:textSize="20sp"
                         android:textStyle="normal"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.419"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="등급 입력"
+                        android:textColor="#404040"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@+id/textView2"
+                        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="등급 : "
+                        android:textColor="#404040"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.419"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="wrap_content"
-                        android:layout_height="44dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginBottom="304dp"
-                        android:text="오늘 평균 "
+                        android:text="1일 전 평균 "
                         android:textColor="#F44336"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -112,26 +141,26 @@
 
                     <TextView
                         android:id="@+id/textView4"
-                        android:layout_width="73dp"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="306dp"
+                        android:gravity="center"
                         android:text="1,655"
                         android:textColor="#F44336"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.726"
-                        app:layout_constraintStart_toStartOf="@id/textView3" />
+                        app:layout_constraintEnd_toStartOf="@+id/textView5"
+                        app:layout_constraintStart_toEndOf="@+id/textView3" />
 
                     <TextView
                         android:id="@+id/textView5"
-                        android:layout_width="28dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="304dp"
                         android:text="원"
                         android:textColor="#F44336"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -140,13 +169,13 @@
 
                     <TextView
                         android:id="@+id/textView6"
-                        android:layout_width="190dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="100dp"
                         android:layout_marginBottom="260dp"
                         android:text="일주일 전 평균 "
                         android:textColor="#3F51B5"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -155,17 +184,17 @@
 
                     <TextView
                         android:id="@+id/textView7"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="262dp"
+                        android:gravity="center"
                         android:text="1,770"
                         android:textColor="#3F51B5"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.762"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintEnd_toStartOf="@+id/textView8"
+                        app:layout_constraintStart_toEndOf="@+id/textView6" />
 
                     <TextView
                         android:id="@+id/textView8"
@@ -174,7 +203,7 @@
                         android:layout_marginBottom="260dp"
                         android:text="원"
                         android:textColor="#3F51B5"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -188,7 +217,7 @@
                         android:layout_marginBottom="220dp"
                         android:text="평년 평균 "
                         android:textColor="@color/black"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -197,17 +226,17 @@
 
                     <TextView
                         android:id="@+id/textView10"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="222dp"
+                        android:gravity="center"
                         android:text="1,285"
                         android:textColor="@color/black"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.762"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintEnd_toStartOf="@+id/textView11"
+                        app:layout_constraintStart_toEndOf="@+id/textView9" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -216,7 +245,7 @@
                         android:layout_marginBottom="216dp"
                         android:text="원"
                         android:textColor="@color/black"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -224,45 +253,32 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView12"
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="60dp"
-                        android:layout_marginBottom="170dp"
-                        android:text="꽈리고추"
-                        android:textColor="#047724"
-                        android:textSize="20sp"
-                        android:textStyle="normal"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/textView13"
-                        app:layout_constraintStart_toStartOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="170dp"
-                        android:text=" 고르는 Tip!"
-                        android:textColor="#047724"
-                        android:textSize="20sp"
-                        android:textStyle="normal"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.605"
-                        app:layout_constraintStart_toStartOf="parent" />
-
-                    <TextView
                         android:id="@+id/textView14"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="80dp"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center"
                         android:text="고추의 꼭지가 시들지 않고\n껍질의 광택이 보이는 \n고추가 좋은 고추에요!"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="normal"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintBottom_toTopOf="@+id/textView18"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="564dp"
+                        android:text="error"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.498"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </ScrollView>
