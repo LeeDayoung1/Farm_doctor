@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class specialcropActivity extends AppCompatActivity {
 
-    public static String keyItemCode, keyKindCode, keyRanks;
+    public static String keyItemCode, keyKindCode, keyRanks, keyImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +45,7 @@ public class specialcropActivity extends AppCompatActivity {
                 keyItemCode = "312";
                 keyKindCode = "01";
                 keyRanks = "상품";
+                keyImage = "rice";
                 // 'button1'을 시작하도록 변경
                 Intent intent = new Intent(specialcropActivity.this, guideSpecialcropActivity.class);
                 startActivity(intent);

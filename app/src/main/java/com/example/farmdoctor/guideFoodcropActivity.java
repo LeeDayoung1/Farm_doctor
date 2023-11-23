@@ -34,7 +34,6 @@ public class guideFoodcropActivity extends AppCompatActivity {
         day2 = (TextView) findViewById(R.id.textView3);
         day3 = (TextView) findViewById(R.id.textView6);
         day7 = (TextView) findViewById(R.id.textView9);
-
         dpr2 = (TextView) findViewById(R.id.textView4);
         dpr3 = (TextView) findViewById(R.id.textView7);
         dpr7 = (TextView) findViewById(R.id.textView10);
@@ -45,7 +44,6 @@ public class guideFoodcropActivity extends AppCompatActivity {
         errorText = (TextView) findViewById(R.id.textView18);
         //tip = (TextView) findViewById(R.id.textView14);
         image = (ImageView) findViewById(R.id.imageView);
-
 
         new guideFoodcropActivity.Task().execute();
 

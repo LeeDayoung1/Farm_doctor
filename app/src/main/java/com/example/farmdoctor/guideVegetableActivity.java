@@ -3,6 +3,7 @@ package com.example.farmdoctor;
 import static com.example.farmdoctor.vegetableActivity.keyItemCode;
 import static com.example.farmdoctor.vegetableActivity.keyKindCode;
 import static com.example.farmdoctor.vegetableActivity.keyRanks;
+import static com.example.farmdoctor.foodcropActivity.keyImage;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -10,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,12 +22,15 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class guideVegetableActivity extends AppCompatActivity {
-    TextView dpr2, dpr3, dpr7, itemName, unit, ranks, errorText, tip;
-
+    TextView day2, day3, day7, dpr2, dpr3, dpr7, itemName, unit, ranks, errorText, tip;
+    ImageView image;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.guide);
 
+        day2 = (TextView) findViewById(R.id.textView3);
+        day3 = (TextView) findViewById(R.id.textView6);
+        day7 = (TextView) findViewById(R.id.textView9);
         dpr2 = (TextView) findViewById(R.id.textView4);
         dpr3 = (TextView) findViewById(R.id.textView7);
         dpr7 = (TextView) findViewById(R.id.textView10);
@@ -35,7 +40,7 @@ public class guideVegetableActivity extends AppCompatActivity {
         ranks = (TextView) findViewById(R.id.textView20);
         errorText = (TextView) findViewById(R.id.textView18);
         //tip = (TextView) findViewById(R.id.textView14);
-
+        image = (ImageView) findViewById(R.id.imageView);
 
         new guideVegetableActivity.Task().execute();
 
@@ -63,14 +68,29 @@ public class guideVegetableActivity extends AppCompatActivity {
     }
 
     class Task extends AsyncTask<Void, Void, Void> {
-        String redpr2 = "", redpr3 = "", redpr7 = "", reitemName = "", reunit = "", reranks = "", reerror = "", retip = "";
-
+        String reday2 = "", reday3 = "", reday7 = "", redpr2 = "", redpr3 = "", redpr7 = "", reitemName = "",
+                reunit = "", reranks = "", reerror = "", retip = "";
         @Override
         protected Void doInBackground(Void...voids) {
             try{
                 Class.forName("com.mysql.jdbc.Driver");
                 Connection connection = DriverManager.getConnection("jdbc:mysql://172.30.1.16:3306/farmer", "yeon", "jeongyeon");
                 Statement statement = connection.createStatement();
+
+                ResultSet resultSet_day2 = statement.executeQuery("SELECT day2 FROM vegetable WHERE item_code = '" + keyItemCode + "' AND kind_code = '" + keyKindCode + "' AND ranks = '" + keyRanks + "'");
+                while(resultSet_day2.next()){
+                    redpr2 += resultSet_day2.getString(1) ;
+                }
+
+                ResultSet resultSet_day3 = statement.executeQuery("SELECT day3 FROM vegetable WHERE item_code = '" + keyItemCode + "' AND kind_code = '" + keyKindCode + "' AND ranks = '" + keyRanks + "'");
+                while(resultSet_day3.next()){
+                    redpr3 += resultSet_day3.getString(1);
+                }
+
+                ResultSet resultSet_day7 = statement.executeQuery("SELECT day7 FROM vegetable WHERE item_code = '" + keyItemCode + "' AND kind_code = '" + keyKindCode + "' AND ranks = '" + keyRanks + "'");
+                while(resultSet_day7.next()){
+                    redpr7 += resultSet_day7.getString(1);
+                }
 
                 ResultSet resultSet_dpr2 = statement.executeQuery("SELECT dpr2 FROM vegetable WHERE item_code = '" + keyItemCode + "' AND kind_code = '" + keyKindCode + "' AND ranks = '" + keyRanks + "'");
                 while(resultSet_dpr2.next()){
@@ -101,6 +121,7 @@ public class guideVegetableActivity extends AppCompatActivity {
                 while(resultSet_ranks.next()){
                     reranks += resultSet_ranks.getString(1);
                 }
+                reerror = "";
             }
             catch(Exception e){
                 reerror = e.toString();
@@ -111,15 +132,18 @@ public class guideVegetableActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             Log.d("MySQLAsyncTask", "onPostExecute: ");
+            day2.setText(reday2);
+            day3.setText(reday3);
+            day7.setText(reday7);
             dpr2.setText(redpr2);
             dpr3.setText(redpr3);
             dpr7.setText(redpr7);
             itemName.setText(reitemName);
             unit.setText(reunit);
             ranks.setText(reranks);
-            if (reerror != "") {
-                errorText.setText(reerror);
-            }
+            errorText.setText(reerror);
+            image.setImageResource(getResources().getIdentifier(keyImage, "drawable", getPackageName()));
+
             super.onPostExecute(aVoid);
         }
     }

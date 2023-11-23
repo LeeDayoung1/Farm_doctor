@@ -8,11 +8,19 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class foodcropActivity extends AppCompatActivity {
     public static String keyItemCode, keyKindCode, keyRanks, keyImage;
-/*    string itemCodeList = ["111"];
-    string kindCodeList = ["111"];
-    string keyRanksList = ["111"];*/
+
+    String [] fcItemCodeList = {"0","152","152","152","152","152","152","152","151","161","143","143","144","162","163","111","111","164","112","141","141","141","142","142"};
+
+    String [] fcKindCodeList = {"0","1","2","3","4","5","6","0","1","0","1","1","1","1","1","5","1","1","1","3","2","0","1"};
+    String [] fcRanksList = {"상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","중품","중품","상품","중품",
+            "상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","중품","상품","중품","상품","중품","중품"};
+    String [] fcImageList = {"potato","potato","potato","potato","potato","potato","potato","sweetpotato","oat","greenbean","greenbean","buckwheat","barley","sorghumbicolor",
+            "rice","rice","jobstears","glutinousrice","beans","beans","beansprouts","redbeans","redbeans"};
 
 
     @Override
@@ -42,16 +50,16 @@ public class foodcropActivity extends AppCompatActivity {
             }
         });
 
-        // 'button1 : 쌀 - 중품' 버튼 클릭 이벤트 처리
+
+        // 'button1' 버튼 클릭 이벤트 처리
         Button button1 = findViewById(R.id.button1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                keyItemCode = "111";
-                keyKindCode = "01";
-                keyRanks = "상품";
-                keyImage = "rice";
-                // 'button1'을 시작하도록 변경
+                keyItemCode = fcItemCodeList[1];
+                keyKindCode = fcKindCodeList[1];
+                keyRanks = fcRanksList[1];
+                keyImage = fcImageList[1];
                 Intent intent = new Intent(foodcropActivity.this, guideFoodcropActivity.class);
                 startActivity(intent);
             }

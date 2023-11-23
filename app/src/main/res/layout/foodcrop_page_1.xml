@@ -42,7 +42,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="쌀 - 상품"
+                    android:text="감자 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -54,7 +54,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="쌀 - 중품"
+                    android:text="감자 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -66,9 +66,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="찹쌀 - 상품"
+                    android:text="감자(수미)(노지) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -87,9 +87,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="찹쌀 - 중품"
+                    android:text="감자(수미)(노지) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -99,7 +99,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="흰콩(국산) - 상품"
+                    android:text="감자(대지마) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -111,7 +111,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="흰콩(국산) - 중품"
+                    android:text="감자(대지마) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -132,7 +132,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="흰콩(수입) - 중품"
+                    android:text="감자(노지) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -144,7 +144,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="붉은팥(국산) - 상품"
+                    android:text="감자(노지) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -156,9 +156,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="붉은팥(국산) - 중품"
+                    android:text="감자(수미)(시설) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -177,9 +177,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="붉은팥(수입) - 상품"
+                    android:text="감자(수미)(시설) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -189,9 +189,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="녹두(국산) - 상품"
+                    android:text="감자(기타)(시설) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -201,9 +201,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="녹두(수입) - 중품"
+                    android:text="감자(기타)(시설) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -222,9 +222,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="메밀(수입) - 중품"
+                    android:text="감자(기타)(노지) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -234,9 +234,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="밤고구마 - 상품"
+                    android:text="감자(기타)(노지) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -246,7 +246,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="밤고구마 - 중품"
+                    android:text="밤고구마 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -267,7 +267,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자 - 상품"
+                    android:text="밤고구마 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -279,7 +279,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자 - 중품"
+                    android:text="귀리 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -291,7 +291,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="18"
+                    android:text="귀리 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -311,7 +311,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="19"
+                    android:text="녹두(국산) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -323,7 +323,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="20"
+                    android:text="녹두(국산) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -335,7 +335,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="21"
+                    android:text="녹두(수입) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -356,7 +356,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="22"
+                    android:text="메밀(수입) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -368,7 +368,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="23"
+                    android:text="보리 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -380,7 +380,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="24"
+                    android:text="보리 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -388,6 +388,8 @@
             </LinearLayout>
 
             <!-- 아홉 번째 줄 -->
+
+            <!-- 열 번째 줄 -->
             <LinearLayout
                 android:id="@+id/linearLayout9"
                 android:layout_width="match_parent"
@@ -401,7 +403,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="25"
+                    android:text="수수 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -413,7 +415,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="26"
+                    android:text="수수 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -425,14 +427,13 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="27"
+                    android:text="쌀 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 열 번째 줄 -->
             <LinearLayout
                 android:id="@+id/linearLayout10"
                 android:layout_width="match_parent"
@@ -446,7 +447,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="28"
+                    android:text="쌀 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -458,7 +459,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="29"
+                    android:text="쌀(햅쌀) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -470,7 +471,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="30"
+                    android:text="쌀(햅쌀) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -491,7 +492,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="31"
+                    android:text="율무 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -503,7 +504,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="32"
+                    android:text="율무 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -515,7 +516,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="33"
+                    android:text="찹쌀 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -536,7 +537,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="34"
+                    android:text="찹쌀 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -548,7 +549,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="35"
+                    android:text="흰콩(국산) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -560,7 +561,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="36"
+                    android:text="흰콩(국산) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -581,7 +582,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="37"
+                    android:text="흰콩(수입) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -593,7 +594,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="38"
+                    android:text="콩나물콩 - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -605,7 +606,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="39"
+                    android:text="콩나물콩 - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -626,7 +627,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="40"
+                    android:text="붉은 팥(국산) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -638,7 +639,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="41"
+                    android:text="붉은 팥(국산) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -650,7 +651,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="42"
+                    android:text="붉은 팥(수입) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="15sp"
                     android:textStyle="bold" />

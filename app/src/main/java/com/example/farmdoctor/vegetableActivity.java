@@ -7,7 +7,7 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class vegetableActivity extends AppCompatActivity {
-    public static String keyItemCode, keyKindCode, keyRanks;
+    public static String keyItemCode, keyKindCode, keyRanks, keyImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,7 @@ public class vegetableActivity extends AppCompatActivity {
                 keyItemCode = "211";
                 keyKindCode = "03";
                 keyRanks = "상품";
+                keyImage = "rice";
                 // 'button1'을 시작하도록 변경
                 Intent intent = new Intent(vegetableActivity.this, guideVegetableActivity.class);
                 startActivity(intent);
