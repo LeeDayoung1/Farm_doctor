@@ -11,11 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FarmDoctor"
-        tools:targetApi="31">
+        tools:targetApi="34">
 
         <activity
             android:name="MainActivity"
-
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
@@ -57,10 +56,6 @@
             android:theme="@style/Theme.AppCompat.Light" />
         <activity
             android:name=".guideVegetableActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light" />
-        <activity
-            android:name=".recipeActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light" />
         <activity
@@ -113,6 +108,22 @@
             android:theme="@style/Theme.AppCompat.Light" />
         <activity
             android:name=".DecemberActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".recipeFoodcropActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".recipeSpecialcropActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".recipeFruitActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".recipeVegetableActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light" />
     </application>

@@ -1,0 +1,240 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFD3B7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/backbutton"
+        android:layout_marginBottom="13dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="9">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/round_button"
+                android:text="감귤"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/round_button"
+                android:text="건포도"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="단감"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="레몬"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="망고"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="바나나"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="배"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="복숭아"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="블루베리"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="158dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="사과"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="아보카도"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="오렌지"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="자몽"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="참다래"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="체리"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="파인애플"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="포도"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </GridLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="과일류"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- 나머지 코드는 동일 -->
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:contentDescription="Go back to the previous screen" />
+
+    <!-- 홈으로 가기 버튼 -->
+    <ImageButton
+        android:id="@+id/homebutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/backbutton"
+        android:layout_marginStart="270dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/backbutton"
+        android:contentDescription="Go back home"
+        android:src="@drawable/home_icon" />
+
+</RelativeLayout>

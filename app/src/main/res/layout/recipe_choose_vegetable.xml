@@ -1,0 +1,681 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFD3B7">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/itemTextView">
+
+        <!-- 버튼들을 포함할 LinearLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 첫 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="가지"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="갓"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="건고추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 두 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="고춧가루"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="깐마늘"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="깻잎"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 세 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="당근"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="딸기"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="멜론"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 네 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="무"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="미나리"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="방울토마토"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 다섯 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="배추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="부추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="붉은고추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 여섯 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="브로콜리"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="상추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="생강"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <!-- 일곱 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="수박"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="시금치"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="알배기배추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 여덟 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="양배추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="양상추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="양파"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 아홉 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="얼갈이배추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="연근"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button27"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="열무"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 열 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button28"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="오이"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="우엉"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="절임배추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 열하나 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="참외"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="청경채"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="케일"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 열두 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button34"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="콩나물"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button35"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="토마토"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button36"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="파"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 열세 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout12"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button37"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="파프리카"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button38"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="풋고추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button39"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="피마늘"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 열네 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout13"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button40"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="피망"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button41"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="호박"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="채소류"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:contentDescription="Go back to the previous screen" />
+
+    <!-- 홈으로 가기 버튼 -->
+    <ImageButton
+        android:id="@+id/homebutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/backbutton"
+        android:layout_marginStart="270dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/backbutton"
+        android:contentDescription="Go back home"
+        android:src="@drawable/home_icon" />
+
+</RelativeLayout>

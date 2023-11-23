@@ -1,16 +1,20 @@
 package com.example.farmdoctor;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.net.Uri;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class guideSpecialcropActivity extends AppCompatActivity {
+public class recipeSpecialcropActivity extends AppCompatActivity {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.guide);
+        setContentView(R.layout.recipe_choose_specialcrop);
 
         // 'homebutton' 버튼 클릭 이벤트 처리
         ImageButton homeButton = findViewById(R.id.homebutton);
@@ -18,7 +22,7 @@ public class guideSpecialcropActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // 'MainActivity'로 이동
-                Intent intent = new Intent(guideSpecialcropActivity.this, MainActivity.class);
+                Intent intent = new Intent(recipeSpecialcropActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
@@ -28,10 +32,11 @@ public class guideSpecialcropActivity extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 'specialcropActivity'로 이동
-                Intent intent = new Intent(guideSpecialcropActivity.this, specialcropActivity.class);
+                // 'recipeKindActivity'로 이동
+                Intent intent = new Intent(recipeSpecialcropActivity.this, recipeKindActivity.class);
                 startActivity(intent);
             }
         });
     }
 }
+
