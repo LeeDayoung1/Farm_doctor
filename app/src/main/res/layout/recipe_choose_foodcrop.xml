@@ -1,177 +1,198 @@
-<!-- 월 선택 -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AFD3B7"
-    tools:context=".month">
+    android:background="#AFD3B7">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/backbutton">
+        android:layout_above="@+id/backbutton"
+        android:layout_marginBottom="13dp">
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="2"
             android:columnOrderPreserved="false"
-            android:rowCount="6">
-
-
+            android:rowCount="7">
             <Button
                 android:id="@+id/button1"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="100dp"
                 android:background="@drawable/round_button"
-                android:text="1월"
-                android:textSize="30sp"
+                android:text="감자"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="100dp"
                 android:background="@drawable/round_button"
-                android:text="2월"
-                android:textSize="30sp"
+                android:text="고구마"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="3월"
-                android:textSize="30sp"
+                android:text="귀리"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="4월"
-                android:textSize="30sp"
+                android:text="기장"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="5월"
-                android:textSize="30sp"
+                android:text="녹두"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="6월"
-                android:textSize= "30sp"
+                android:text="메밀"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="7월"
-                android:textSize="30sp"
+                android:text="보리"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="8월"
-                android:textSize="30sp"
+                android:text="수수"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="9월"
-                android:textSize="30sp"
+                android:text="쌀"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="158dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="10월"
-                android:textSize="30sp"
+                android:text="율무"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="11월"
-                android:textSize="30sp"
+                android:text="찹쌀"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button12"
                 android:layout_width="155dp"
-                android:layout_height="155dp"
+                android:layout_height="100dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/round_button"
-                android:text="12월"
-                android:textSize="30sp"
+                android:text="콩"
+                android:textSize="26sp"
                 android:textStyle="bold" />
-
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="팥"
+                android:textSize="26sp"
+                android:textStyle="bold" />
         </GridLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="식량작물"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- 나머지 코드는 동일 -->
+
     <ImageButton
         android:id="@+id/backbutton"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
         android:src="@android:drawable/ic_menu_revert"
-        android:contentDescription="Go back to previous screen" />
+        android:contentDescription="Go back to the previous screen" />
 
+    <!-- 홈으로 가기 버튼 -->
     <ImageButton
         android:id="@+id/homebutton"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_alignTop="@+id/backbutton"
-        android:layout_marginStart="275dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/backbutton"
         android:contentDescription="Go back home"
         android:src="@drawable/home_icon" />

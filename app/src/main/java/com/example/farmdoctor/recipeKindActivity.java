@@ -1,26 +1,25 @@
 package com.example.farmdoctor;
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
-
-    @Override
+public class recipeKindActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.recipekind);
 
         // '식량작물' 버튼 클릭 이벤트 처리
         Button button1 = findViewById(R.id.button1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 'foodcropActivity'를 시작하도록 변경
-                Intent intent = new Intent(MainActivity.this, foodcropActivity.class);
+                // 'recipeFoodcropActivity'를 시작하도록 변경
+                Intent intent = new Intent(recipeKindActivity.this, recipeFoodcropActivity.class);
                 startActivity(intent);
             }
         });
@@ -30,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 'specialcropActivity'를 시작하도록 변경
-                Intent intent = new Intent(MainActivity.this, specialcropActivity.class);
+                // 'recipeSpecialcropActivity'를 시작하도록 변경
+                Intent intent = new Intent(recipeKindActivity.this, recipeSpecialcropActivity.class);
                 startActivity(intent);
             }
         });
@@ -41,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 'vegetableActivity'를 시작하도록 변경
-                Intent intent = new Intent(MainActivity.this, vegetableActivity.class);
+                // 'recipeVegetableActivity'를 시작하도록 변경
+                Intent intent = new Intent(recipeKindActivity.this, recipeVegetableActivity.class);
                 startActivity(intent);
             }
         });
@@ -52,34 +51,32 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 'fruitActivity'를 시작하도록 변경
-                Intent intent = new Intent(MainActivity.this, fruitActivity.class);
+                // 'recipeFruitActivity'를 시작하도록 변경
+                Intent intent = new Intent(recipeKindActivity.this, recipeFruitActivity.class);
                 startActivity(intent);
             }
         });
 
-        // '제철농산물' 버튼 클릭 이벤트 처리
-        Button button5 = findViewById(R.id.button5);
-        button5.setOnClickListener(new View.OnClickListener() {
+        // 'homebutton' 버튼 클릭 이벤트 처리
+        ImageButton homeButton = findViewById(R.id.homebutton);
+        homeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 'MonthActivity'를 시작하도록 변경
-                Intent intent = new Intent(MainActivity.this, MonthActivity.class);
+                // 'MainActivity'로 이동
+                Intent intent = new Intent(recipeKindActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
 
-        // '레시피' 버튼 클릭 이벤트 처리
-        Button button6 = findViewById(R.id.button6);
-        button6.setOnClickListener(new View.OnClickListener() {
+        // 'backbutton' 버튼 클릭 이벤트 처리
+        ImageButton backButton = findViewById(R.id.backbutton);
+        backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 'recipekindActivity'를 시작하도록 변경
-                Intent intent = new Intent(MainActivity.this, recipeKindActivity.class);
+                // 'MainActivity'로 이동
+                Intent intent = new Intent(recipeKindActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
-
-
     }
 }

@@ -5,17 +5,7 @@
     android:background="#AFD3B7">
 
 
-    <TextView
-        android:id="@+id/itemTextView"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="식량작물 품목"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+
 
 
     <ScrollView
@@ -42,7 +32,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="1"
+                    android:text="가지"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -54,7 +44,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="2"
+                    android:text="갓"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -66,7 +56,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="3"
+                    android:text="건고추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -87,7 +77,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="4"
+                    android:text="고춧가루"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -99,7 +89,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="5"
+                    android:text="깐마늘"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -111,7 +101,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="6"
+                    android:text="깻잎"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -132,7 +122,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="7"
+                    android:text="당근"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -144,7 +134,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="8"
+                    android:text="딸기"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -156,7 +146,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="9"
+                    android:text="멜론"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -177,7 +167,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="10"
+                    android:text="무"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -189,7 +179,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="11"
+                    android:text="미나리"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -201,7 +191,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="12"
+                    android:text="방울토마토"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -222,7 +212,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="13"
+                    android:text="배추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -234,7 +224,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="14"
+                    android:text="부추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -246,7 +236,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="15"
+                    android:text="붉은고추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -267,7 +257,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="16"
+                    android:text="브로콜리"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -279,7 +269,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="17"
+                    android:text="상추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -291,7 +281,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="18"
+                    android:text="생강"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -311,7 +301,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="19"
+                    android:text="수박"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -323,7 +313,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="20"
+                    android:text="시금치"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -335,7 +325,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="21"
+                    android:text="알배기배추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -356,7 +346,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="22"
+                    android:text="양배추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -368,7 +358,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="23"
+                    android:text="양상추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -380,7 +370,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="24"
+                    android:text="양파"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -401,7 +391,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="25"
+                    android:text="얼갈이배추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -413,7 +403,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="26"
+                    android:text="연근"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -425,7 +415,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="27"
+                    android:text="열무"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -446,7 +436,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="28"
+                    android:text="오이"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -458,7 +448,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="29"
+                    android:text="우엉"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -470,7 +460,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="30"
+                    android:text="절임배추"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -491,7 +481,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="31"
+                    android:text="참외"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -503,7 +493,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="32"
+                    android:text="청경채"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -515,7 +505,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="33"
+                    android:text="케일"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -536,7 +526,7 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="34"
+                    android:text="콩나물"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -548,7 +538,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="35"
+                    android:text="토마토"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -560,10 +550,90 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="36"
+                    android:text="파"
                     android:textColor="#0F8730"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 열세 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout12"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button37"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="파프리카"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button38"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="풋고추"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button39"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="피마늘"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 열네 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout13"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button40"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="피망"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button41"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="호박"
+                    android:textColor="#0F8730"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
 
             </LinearLayout>
             <Space
@@ -572,6 +642,18 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="채소류"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <ImageButton
         android:id="@+id/backbutton"
