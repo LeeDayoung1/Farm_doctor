@@ -258,7 +258,7 @@
                         android:layout_height="0dp"
                         android:layout_marginTop="24dp"
                         android:gravity="center"
-                        android:text="고추의 꼭지가 시들지 않고\n껍질의 광택이 보이는 \n고추가 좋은 고추에요!"
+                        android:text="광택이 나며 투명하고\n쌀알 모양이 균일하여야\n좋은쌀 입니다."
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="normal"

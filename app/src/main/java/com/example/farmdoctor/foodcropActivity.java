@@ -9,7 +9,11 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class foodcropActivity extends AppCompatActivity {
-    public static String keyItemCode, keyKindCode, keyRanks;
+    public static String keyItemCode, keyKindCode, keyRanks, keyImage;
+/*    string itemCodeList = ["111"];
+    string kindCodeList = ["111"];
+    string keyRanksList = ["111"];*/
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +50,7 @@ public class foodcropActivity extends AppCompatActivity {
                 keyItemCode = "111";
                 keyKindCode = "01";
                 keyRanks = "상품";
+                keyImage = "rice";
                 // 'button1'을 시작하도록 변경
                 Intent intent = new Intent(foodcropActivity.this, guideFoodcropActivity.class);
                 startActivity(intent);

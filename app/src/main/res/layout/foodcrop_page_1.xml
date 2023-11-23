@@ -566,6 +566,96 @@
                     android:textStyle="bold" />
 
             </LinearLayout>
+
+            <!-- 열세 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button37"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="37"
+                    android:textColor="#0F8730"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button38"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="38"
+                    android:textColor="#0F8730"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button39"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="39"
+                    android:textColor="#0F8730"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- 열네 번째 줄 -->
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button40"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="40"
+                    android:textColor="#0F8730"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button41"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="41"
+                    android:textColor="#0F8730"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button42"
+                    android:layout_width="130dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button2"
+                    android:text="42"
+                    android:textColor="#0F8730"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="60dp" />

@@ -42,9 +42,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="1"
+                    android:text="느타리버섯 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -54,9 +54,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="2"
+                    android:text="느타리버섯 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -66,9 +66,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="3"
+                    android:text="애느타리버섯 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -87,9 +87,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="4"
+                    android:text="애느타리버섯 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -99,9 +99,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="5"
+                    android:text="땅콩(국산) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -111,9 +111,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="6"
+                    android:text="땅콩(국산) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -132,9 +132,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="7"
+                    android:text="땅콩(수입) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -144,9 +144,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="8"
+                    android:text="새송이버섯 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -156,9 +156,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="9"
+                    android:text="새송이버섯 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -177,9 +177,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="10"
+                    android:text="참깨(백색,국산) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -189,9 +189,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="11"
+                    android:text="참깨(백색, 국산) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -201,9 +201,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="12"
+                    android:text="참깨(중국) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -222,9 +222,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="13"
+                    android:text="참깨(인도) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -234,9 +234,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="14"
+                    android:text="참깨(국산) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -246,9 +246,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="15"
+                    android:text="참깨(국산) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -267,9 +267,9 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="16"
+                    android:text="참깨(수입) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -279,9 +279,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="17"
+                    android:text="팽이버섯 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
                 <Button
@@ -291,281 +291,13 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="18"
+                    android:text="팽이버섯 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-            <!-- 일곱 번째 줄 -->
-            <LinearLayout
-                android:id="@+id/linearLayout7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button19"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="19"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button20"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="20"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button21"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="21"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 여덟 번째 줄 -->
-            <LinearLayout
-                android:id="@+id/linearLayout8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button22"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="22"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button23"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="23"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button24"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="24"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!-- 아홉 번째 줄 -->
-            <LinearLayout
-                android:id="@+id/linearLayout9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button25"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="25"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button26"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="26"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button27"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="27"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!-- 열 번째 줄 -->
-            <LinearLayout
-                android:id="@+id/linearLayout10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button28"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="28"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button29"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="29"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button30"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="30"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!-- 열하나 번째 줄 -->
-            <LinearLayout
-                android:id="@+id/linearLayout11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button31"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="31"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button32"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="32"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button33"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="33"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!-- 열두 번째 줄 -->
-            <LinearLayout
-                android:id="@+id/linearLayout12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button34"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="34"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button35"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="35"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/button36"
-                    android:layout_width="130dp"
-                    android:layout_height="49dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/round_button2"
-                    android:text="36"
-                    android:textColor="#0F8730"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="60dp" />
