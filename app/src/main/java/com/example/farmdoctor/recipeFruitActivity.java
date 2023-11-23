@@ -1,12 +1,11 @@
 package com.example.farmdoctor;
+
 import android.content.Intent;
-import android.os.Bundle;
 import android.net.Uri;
-import android.text.method.ScrollingMovementMethod;
+import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -37,6 +36,17 @@ public class recipeFruitActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // '감귤' 버튼 클릭 이벤트 처리
+        Button button1 = findViewById(R.id.button1);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 외부 브라우저를 열어서 특정 URL로 이동
+                String url = "https://www.10000recipe.com/recipe/6879481";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
+            }
+        });
     }
 }
-

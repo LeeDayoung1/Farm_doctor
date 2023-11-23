@@ -127,5 +127,5 @@
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light" />
     </application>
-
+      <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
