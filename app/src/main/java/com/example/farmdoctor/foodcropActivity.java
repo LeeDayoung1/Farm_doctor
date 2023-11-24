@@ -1,11 +1,9 @@
 package com.example.farmdoctor;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,7 +16,8 @@ public class foodcropActivity extends AppCompatActivity {
             "141","141","141","142","142","142"};
 
     String [] fcKindCodeList = {"_","00","00","01","01","02","02","03","03","04","04","05","05","06","06","00","00","01","01","00","00",
-            "01","01","01","01","01","01","01","01","05","05", "01","01","01","01","01","01","03","02","02","00","00","01"};
+            "01","01","01","01","01","01","01","01","05","05", "01","01","01","01","01","01","03","02","02","00","00","01"
+    };
     String [] fcRanksList = {"_", "상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품",
             "상품","중품","상품","중품","중품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품",
             "중품","상품","중품","상품","중품","중품"
@@ -26,8 +25,8 @@ public class foodcropActivity extends AppCompatActivity {
     String [] fcImageList = {"_", "potato","potato","potato","potato","potato","potato","potato","potato","potato","potato","potato",
             "potato","potato","potato","sweetpotato","sweetpotato","oat","oat","greenbean","greenbean","greenbean","buckwheat","barley",
             "barley","sorghumbicolor","sorghumbicolor","rice","rice","rice","rice","jobstears","jobstears","glutinousrice",
-            "glutinousrice","beans","beans","beans","beansprouts","beansprouts","redbeans","redbeans","redbeans"};
-
+            "glutinousrice","beans","beans","beans","beansprouts","beansprouts","redbeans","redbeans","redbeans"
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

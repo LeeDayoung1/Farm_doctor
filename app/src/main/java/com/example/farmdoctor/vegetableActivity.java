@@ -52,7 +52,7 @@ public class vegetableActivity extends AppCompatActivity {
 
     // 버튼 생성 및 클릭 이벤트 처리 함수
     private void createButtons() {
-        for (int i = 1; i <= 42; i++) {
+        for (int i = 1; i <= 137; i++) {
             createButton(i);
         }
     }
