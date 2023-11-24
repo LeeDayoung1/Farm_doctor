@@ -29,12 +29,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- 첫 번째 줄 -->
+            <!-- 1 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button1"
@@ -42,10 +44,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자 - 상품"
+                    android:text= "감자 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button2"
@@ -54,10 +57,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자 - 중품"
+                    android:text= "감자 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button3"
@@ -66,20 +70,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(수미)(노지) - 상품"
+                    android:text= "감자(수미)(노지) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 두 번째 줄 -->
+            <!-- 2 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button4"
@@ -87,10 +92,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(수미)(노지) - 중품"
+                    android:text= "감자(수미)(노지) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button5"
@@ -99,10 +105,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(대지마) - 상품"
+                    android:text= "감자(대지마) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button6"
@@ -111,20 +118,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(대지마) - 중품"
+                    android:text= "감자(대지마) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 세 번째 줄 -->
+            <!-- 3 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button7"
@@ -132,10 +140,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(노지) - 상품"
+                    android:text= "감자(노지) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button8"
@@ -144,10 +153,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(노지) - 중품"
+                    android:text= "감자(노지) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button9"
@@ -156,20 +166,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(수미)(시설) - 상품"
+                    android:text= "감자(수미)(시설) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 네 번째 줄 -->
+            <!-- 4 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button10"
@@ -177,10 +188,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(수미)(시설) - 중품"
+                    android:text= "감자(수미)(시설) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button11"
@@ -189,10 +201,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(기타)(시설) - 상품"
+                    android:text= "감자(기타)(시설) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button12"
@@ -201,20 +214,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(기타)(시설) - 중품"
+                    android:text= "감자(기타)(시설) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 다섯 번째 줄 -->
+            <!-- 5 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button13"
@@ -222,10 +236,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(기타)(노지) - 상품"
+                    android:text= "감자(기타)(노지) - 상품"
                     android:textColor="#0F8730"
                     android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button14"
@@ -234,10 +249,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="감자(기타)(노지) - 중품"
+                    android:text= "감자(기타)(노지) - 중품"
                     android:textColor="#0F8730"
                     android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button15"
@@ -246,20 +262,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="밤고구마 - 상품"
+                    android:text= "밤고구마 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 여섯 번째 줄 -->
+            <!-- 6 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button16"
@@ -267,10 +284,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="밤고구마 - 중품"
+                    android:text= "밤고구마 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button17"
@@ -279,10 +297,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="귀리 - 상품"
+                    android:text= "귀리 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button18"
@@ -291,19 +310,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="귀리 - 중품"
+                    android:text= "귀리 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
-            <!-- 일곱 번째 줄 -->
+
+            <!-- 7 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button19"
@@ -311,10 +332,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="녹두(국산) - 상품"
+                    android:text= "녹두(국산) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button20"
@@ -323,10 +345,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="녹두(국산) - 중품"
+                    android:text= "녹두(국산) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button21"
@@ -335,20 +358,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="녹두(수입) - 중품"
+                    android:text= "녹두(수입) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 여덟 번째 줄 -->
+            <!-- 8 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button22"
@@ -356,10 +380,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="메밀(수입) - 중품"
+                    android:text= "메밀(수입) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button23"
@@ -368,10 +393,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="보리 - 상품"
+                    android:text= "보리 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button24"
@@ -380,22 +406,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="보리 - 중품"
+                    android:text= "보리 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 아홉 번째 줄 -->
+            <!-- 9 번째 줄 -->
 
-            <!-- 열 번째 줄 -->
             <LinearLayout
                 android:id="@+id/linearLayout9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button25"
@@ -403,10 +428,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="수수 - 상품"
+                    android:text= "수수 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button26"
@@ -415,10 +441,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="수수 - 중품"
+                    android:text= "수수 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button27"
@@ -427,19 +454,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="쌀 - 상품"
+                    android:text= "쌀 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
+
+            <!-- 10 번째 줄 -->
 
             <LinearLayout
                 android:id="@+id/linearLayout10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button28"
@@ -447,10 +476,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="쌀 - 중품"
+                    android:text= "쌀 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button29"
@@ -459,10 +489,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="쌀(햅쌀) - 상품"
+                    android:text= "쌀(햅쌀) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button30"
@@ -471,20 +502,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="쌀(햅쌀) - 중품"
+                    android:text= "쌀(햅쌀) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 열하나 번째 줄 -->
+            <!-- 11 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button31"
@@ -492,10 +524,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="율무 - 상품"
+                    android:text= "율무 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button32"
@@ -504,10 +537,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="율무 - 중품"
+                    android:text= "율무 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button33"
@@ -516,20 +550,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="찹쌀 - 상품"
+                    android:text= "찹쌀 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 열두 번째 줄 -->
+            <!-- 12 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button34"
@@ -537,10 +572,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="찹쌀 - 중품"
+                    android:text= "찹쌀 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button35"
@@ -549,10 +585,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="흰콩(국산) - 상품"
+                    android:text= "흰콩(국산) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button36"
@@ -561,20 +598,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="흰콩(국산) - 중품"
+                    android:text= "흰콩(국산) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 열세 번째 줄 -->
+            <!-- 13 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button37"
@@ -582,10 +620,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="흰콩(수입) - 중품"
+                    android:text= "흰콩(수입) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button38"
@@ -594,10 +633,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="콩나물콩 - 상품"
+                    android:text= "콩나물콩 - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button39"
@@ -606,20 +646,21 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="콩나물콩 - 중품"
+                    android:text= "콩나물콩 - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!-- 열네 번째 줄 -->
+            <!-- 14 번째 줄 -->
+
             <LinearLayout
                 android:id="@+id/linearLayout14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/button40"
@@ -627,10 +668,11 @@
                     android:layout_height="49dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="붉은 팥(국산) - 상품"
+                    android:text= "붉은 팥(국산) - 상품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button41"
@@ -639,10 +681,11 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="붉은 팥(국산) - 중품"
+                    android:text= "붉은 팥(국산) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
+
 
                 <Button
                     android:id="@+id/button42"
@@ -651,12 +694,13 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/round_button2"
-                    android:text="붉은 팥(수입) - 상품"
+                    android:text= "붉은 팥(수입) - 중품"
                     android:textColor="#0F8730"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
+
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="60dp" />
