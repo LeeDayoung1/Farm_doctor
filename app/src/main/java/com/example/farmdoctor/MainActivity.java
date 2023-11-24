@@ -19,24 +19,10 @@ import java.sql.Statement;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView text, errorText;
-    Button show;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        text = (TextView) findViewById(R.id.textView15);
-        errorText = (TextView) findViewById(R.id.textView17);
-        show = (Button) findViewById(R.id.button);
-
-        show.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                new Task().execute();
-            }
-        });
 
         // '식량작물' 버튼 클릭 이벤트 처리
         Button button1 = findViewById(R.id.button1);
@@ -103,43 +89,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-
-    class Task extends AsyncTask<Void, Void, Void> {
-        String records = "", error = "";
-
-        @Override
-        protected Void doInBackground(Void...voids) {
-            try{
-                Class.forName("com.mysql.jdbc.Driver");
-                Connection connection = DriverManager.getConnection("jdbc:mysql://172.30.1.16:3306/farmer", "yeon", "jeongyeon");
-                Statement statement = connection.createStatement();
-                ResultSet resultSet = statement.executeQuery("SELECT * FROM vegetable where item_code = 242");
-
-                while(resultSet.next()){
-                    records += resultSet.getString(2) + " " + resultSet.getString(6) + " "
-                            + resultSet.getString(8) + " " + resultSet.getString(10) + " "
-                            + resultSet.getString(12) + "\n";
-/*                    for (int i=1;i<=12;i++) {
-                        records += resultSet.getString(i) + " ";
-                    }
-                    records += "\n";*/
-                }
-            }
-            catch(Exception e){
-                error = e.toString();
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void aVoid) {
-            Log.d("MySQLAsyncTask", "onPostExecute: " + records);
-            text.setText(records);
-            if (error != "") {
-                errorText.setText(error);
-            }
-            super.onPostExecute(aVoid);
-        }
     }
 }

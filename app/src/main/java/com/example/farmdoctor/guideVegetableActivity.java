@@ -3,7 +3,7 @@ package com.example.farmdoctor;
 import static com.example.farmdoctor.vegetableActivity.keyItemCode;
 import static com.example.farmdoctor.vegetableActivity.keyKindCode;
 import static com.example.farmdoctor.vegetableActivity.keyRanks;
-import static com.example.farmdoctor.foodcropActivity.keyImage;
+import static com.example.farmdoctor.vegetableActivity.keyImage;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -74,7 +74,7 @@ public class guideVegetableActivity extends AppCompatActivity {
         protected Void doInBackground(Void...voids) {
             try{
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection connection = DriverManager.getConnection("jdbc:mysql://172.30.1.61:3306/farmer", "yeon", "jeongyeon");
+                Connection connection = DriverManager.getConnection("jdbc:mysql://172.30.1.34:3306/farmer", "yeon", "jeongyeon");
                 Statement statement = connection.createStatement();
 
                 ResultSet resultSet_day2 = statement.executeQuery("SELECT day2 FROM vegetable WHERE item_code = '" + keyItemCode + "' AND kind_code = '" + keyKindCode + "' AND ranks = '" + keyRanks + "'");
