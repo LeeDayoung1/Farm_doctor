@@ -10,14 +10,14 @@ public class specialcropActivity extends AppCompatActivity {
 
     public static String keyItemCode, keyKindCode, keyRanks, keyImage;
 
-    String [] fcItemCodeList = {"_", "315", "315", "315", "315", "314", "314", "314", "317", "317", "312", "312", "312", "312", "312", "312", "312", "316", "316"
+    String [] scItemCodeList = {"_", "315", "315", "315", "315", "314", "314", "314", "317", "317", "312", "312", "312", "312", "312", "312", "312", "316", "316"
     };
 
-    String [] fcKindCodeList = {"_", "00", "00", "01", "01", "01", "01", "02", "00", "00", "01", "01", "02", "03", "01", "01", "02", "00", "00"
+    String [] scKindCodeList = {"_", "00", "00", "01", "01", "01", "01", "02", "00", "00", "01", "01", "02", "03", "01", "01", "02", "00", "00"
     };
-    String [] fcRanksList = {"_", "상품", "중품", "상품", "중품", "상품", "중품", "중품", "상품", "중품", "상품", "중품", "중품", "중품", "상품", "중품", "중품", "상품", "중품"
+    String [] scRanksList = {"_", "상품", "중품", "상품", "중품", "상품", "중품", "중품", "상품", "중품", "상품", "중품", "중품", "중품", "상품", "중품", "중품", "상품", "중품"
     };
-    String [] fcImageList = {"_", "aoystermushroom", "aoystermushroom", "aoystermushroom", "aoystermushroom", "peanut", "peanut", "peanut", "kingtrumpetmushroom", "kingtrumpetmushroom", "sesame", "sesame", "sesame", "sesame", "sesame", "sesame", "sesame", "enokimushroom", "enokimushroom"
+    String [] scImageList = {"_", "aoystermushroom", "aoystermushroom", "aoystermushroom", "aoystermushroom", "peanut", "peanut", "peanut", "kingtrumpetmushroom", "kingtrumpetmushroom", "sesame", "sesame", "sesame", "sesame", "sesame", "sesame", "sesame", "enokimushroom", "enokimushroom"
     };
 
     @Override
@@ -64,10 +64,10 @@ public class specialcropActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                keyItemCode = fcItemCodeList[index];
-                keyKindCode = fcKindCodeList[index];
-                keyRanks = fcRanksList[index];
-                keyImage = fcImageList[index];
+                keyItemCode = scItemCodeList[index];
+                keyKindCode = scKindCodeList[index];
+                keyRanks = scRanksList[index];
+                keyImage = scImageList[index];
                 Intent intent = new Intent(specialcropActivity.this, guideSpecialcropActivity.class);
                 startActivity(intent);
             }

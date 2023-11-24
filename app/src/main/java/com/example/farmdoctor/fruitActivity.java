@@ -10,15 +10,15 @@ public class fruitActivity extends AppCompatActivity {
 
     public static String keyItemCode, keyKindCode, keyRanks, keyImage;
 
-    String [] fcItemCodeList = {"_", "415", "415", "415", "415", "415", "415", "416", "416", "424", "424", "418", "418", "428", "428", "412", "412", "412", "412", "412", "412", "412", "412", "413", "413", "413", "413", "413", "413", "411", "411", "411", "411", "411",
+    String [] fItemCodeList = {"_", "415", "415", "415", "415", "415", "415", "416", "416", "424", "424", "418", "418", "428", "428", "412", "412", "412", "412", "412", "412", "412", "412", "413", "413", "413", "413", "413", "413", "411", "411", "411", "411", "411",
             "411", "411", "411", "421", "421", "421", "421", "421", "421", "421", "421", "421", "421", "419", "419", "419", "419", "425", "425", "420", "420", "414", "414", "414", "414", "414", "414", "414", "414", "414", "414", "414", "414"
     };
 
-    String [] fcKindCodeList = {"_", "00", "00", "01", "01", "02", "02", "00", "00", "00", "00", "02", "02", "00", "00", "01", "01", "02", "02", "03", "03", "04", "04", "01", "01", "04", "04", "05", "05", "01", "01", "05", "05", "06", "06", "07", "07", "02", "02", "03", "03", "04", "04", "05", "05", "06", "06", "01", "01", "02", "02", "00", "00", "02", "02", "01", "01", "02", "02", "03", "03", "06", "06", "07", "07", "12", "12"
+    String [] fKindCodeList = {"_", "00", "00", "01", "01", "02", "02", "00", "00", "00", "00", "02", "02", "00", "00", "01", "01", "02", "02", "03", "03", "04", "04", "01", "01", "04", "04", "05", "05", "01", "01", "05", "05", "06", "06", "07", "07", "02", "02", "03", "03", "04", "04", "05", "05", "06", "06", "01", "01", "02", "02", "00", "00", "02", "02", "01", "01", "02", "02", "03", "03", "06", "06", "07", "07", "12", "12"
     };
-    String [] fcRanksList = {"_", "상품","중품","S과","M과","S과","M과","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","L과","M과","L과","M과","상품","중품","L과","M과","상품","중품","L과","M과"
+    String [] fRanksList = {"_", "상품","중품","S과","M과","S과","M과","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","L과","M과","L과","M과","상품","중품","L과","M과","상품","중품","L과","M과"
     };
-    String [] fcImageList = {"_", "tangerine", "tangerine", "tangerine", "tangerine", "tangerine", "tangerine", "persimmon", "persimmon", "lemon", "lemon", "banana", "banana", "mango", "mango", "pear", "pear", "pear", "pear", "pear", "pear", "pear", "pear", "whiteprunuspersica", "whiteprunuspersica", "prunuspersica", "prunuspersica", "prunuspersica", "prunuspersica", "apple", "apple", "apple", "apple", "apple", "apple", "apple", "apple", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "kiwi", "kiwi", "kiwi", "kiwi", "cherry", "cherry", "pineapple", "pineapple", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "shinemuscat", "shinemuscat"
+    String [] fImageList = {"_", "tangerine", "tangerine", "tangerine", "tangerine", "tangerine", "tangerine", "persimmon", "persimmon", "lemon", "lemon", "banana", "banana", "mango", "mango", "pear", "pear", "pear", "pear", "pear", "pear", "pear", "pear", "whiteprunuspersica", "whiteprunuspersica", "prunuspersica", "prunuspersica", "prunuspersica", "prunuspersica", "apple", "apple", "apple", "apple", "apple", "apple", "apple", "apple", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "kiwi", "kiwi", "kiwi", "kiwi", "cherry", "cherry", "pineapple", "pineapple", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "shinemuscat", "shinemuscat"
     };
 
     @Override
@@ -65,10 +65,10 @@ public class fruitActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                keyItemCode = fcItemCodeList[index];
-                keyKindCode = fcKindCodeList[index];
-                keyRanks = fcRanksList[index];
-                keyImage = fcImageList[index];
+                keyItemCode = fItemCodeList[index];
+                keyKindCode = fKindCodeList[index];
+                keyRanks = fRanksList[index];
+                keyImage = fImageList[index];
                 Intent intent = new Intent(fruitActivity.this, guideFruitActivity.class);
                 startActivity(intent);
             }
