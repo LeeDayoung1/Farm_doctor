@@ -78,7 +78,7 @@ public class guideSpecialcropActivity extends AppCompatActivity {
         protected Void doInBackground(Void...voids) {
             try{
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection connection = DriverManager.getConnection("jdbc:mysql://172.30.1.16:3306/farmer", "yeon", "jeongyeon");
+                Connection connection = DriverManager.getConnection("jdbc:mysql://172.30.1.61:3306/farmer", "yeon", "jeongyeon");
                 Statement statement = connection.createStatement();
 
                 ResultSet resultSet_day2 = statement.executeQuery("SELECT day2 FROM specialcrop WHERE item_code = '" + specialcropActivity.keyItemCode + "' AND kind_code = '" + specialcropActivity.keyKindCode + "' AND ranks = '" + specialcropActivity.keyRanks + "'");

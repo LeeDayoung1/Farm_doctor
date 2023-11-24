@@ -58,19 +58,6 @@ public class foodcropActivity extends AppCompatActivity {
 
         // 버튼들을 생성하고 클릭 이벤트 처리 함수 호출
         createButtons();
-/*        // 'button1' 버튼 클릭 이벤트 처리
-        Button button1 = findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                keyItemCode = fcItemCodeList[2];
-                keyKindCode = fcKindCodeList[2];
-                keyRanks = fcRanksList[2];
-                keyImage = fcImageList[2];
-                Intent intent = new Intent(foodcropActivity.this, guideFoodcropActivity.class);
-                startActivity(intent);
-            }
-        });*/
     }
 
     // 버튼 생성 및 클릭 이벤트 처리 함수

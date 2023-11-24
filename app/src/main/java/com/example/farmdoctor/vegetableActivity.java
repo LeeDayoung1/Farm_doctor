@@ -9,6 +9,16 @@ import androidx.appcompat.app.AppCompatActivity;
 public class vegetableActivity extends AppCompatActivity {
     public static String keyItemCode, keyKindCode, keyRanks, keyImage;
 
+    String [] fcItemCodeList = {"_","251","251","258","258","258","258","258","258","258","258","258","258","259","259","259","253","253","241","241","241","241","241","232","232","232","232","232","232","232","226","226","257","257","231","231","231","231","231","231","231","231","252","252","422","422","422","422","211","211","211","211","211","211","211","211","254","254","243","243","280","280","214","214","214","214","247","247","247","221","221","213","213","279","279","212","212","245","245","245","245","245","215","215","233","233","223","223","223","223","223","223","222","222","225","225","246","246","246","246","256","256","242","242","242","242","242","242","242","242","244","244","244","244","244","244","244","244","244","244","244","244","244","244","244","244","244","244","244","244","244","244","255","255","224","224","224","224"
+    };
+
+    String [] fcKindCodeList = {"_","04","05","04","05","04","05","04","05","04","05","04","05","05","04","05","04","05","04","05","04","05","05","04","05","04","05","04","05","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","05","04","05","04","05","04","05","04","05","04","05","04","05","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05","04","05"
+    };
+    String [] fcRanksList = {"_","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","중품","상품","중품","상품","중품","상품","중품","상품","중품","중품","상품","중품","상품","중품","상품","중품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품"
+    };
+    String [] fcImageList = {"_","eggplant","eggplant","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","peeledgarlic","perillaleaf","perillaleaf","driedredpepper","driedredpepper","driedredpepper","driedredpepper","driedredpepper","carrot","carrot","carrot","carrot","carrot","carrot","carrot","strawberry","strawberry","melon","melon","daikon","daikon","daikon","daikon","daikon","daikon","daikon","daikon","waterparsely","waterparsely","cheerytomato","cheerytomato","cheerytomato","cheerytomato","napacabbage","napacabbage","napacabbage","napacabbage","napacabbage","napacabbage","wintercabbage","wintercabbage","chives","chives","cayenne","cayenne","broccoli","broccoli","leaflettuce","leaflettuce","leaflettuce","leaflettuce","ginger","ginger","ginger","watermelon","watermelon","spinach","spinach","roecabbage","roecabbage","cabbage","cabbage","onion","onion","onion","onion","onion","groundcabbage","groundcabbage","youngradish","youngradish","cucumber","cucumber","cucumber","cucumber","cucumber","cucumber","orientalmelon","orientalmelon","tomato","tomato","welshonion","welshonion","welshonion","welshonion","paprika","paprika","greenchillipepper","greenchillipepper","greenchillipepper","greenchillipepper","greenchillipepper","greenchillipepper","greenchillipepper","greenchillipepper","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","garlic","bellpepper","bellpepper","courgette","courgette","zucchini","zucchini"
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,19 +46,31 @@ public class vegetableActivity extends AppCompatActivity {
             }
         });
 
-        // 'button1' 버튼 클릭 이벤트 처리
-        Button button1 = findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
+        // 버튼들을 생성하고 클릭 이벤트 처리 함수 호출
+        createButtons();
+    }
+
+    // 버튼 생성 및 클릭 이벤트 처리 함수
+    private void createButtons() {
+        for (int i = 1; i <= 42; i++) {
+            createButton(i);
+        }
+    }
+
+    // 각 버튼의 생성 및 클릭 이벤트 처리 함수
+    private void createButton(final int index) {
+        Button button = findViewById(getResources().getIdentifier("button" + index, "id", getPackageName()));
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                keyItemCode = "211";
-                keyKindCode = "03";
-                keyRanks = "상품";
-                keyImage = "rice";
-                // 'button1'을 시작하도록 변경
+                keyItemCode = fcItemCodeList[index];
+                keyKindCode = fcKindCodeList[index];
+                keyRanks = fcRanksList[index];
+                keyImage = fcImageList[index];
                 Intent intent = new Intent(vegetableActivity.this, guideVegetableActivity.class);
                 startActivity(intent);
             }
         });
     }
 }
+

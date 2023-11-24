@@ -10,6 +10,17 @@ public class fruitActivity extends AppCompatActivity {
 
     public static String keyItemCode, keyKindCode, keyRanks, keyImage;
 
+    String [] fcItemCodeList = {"_", "415", "415", "415", "415", "415", "415", "416", "416", "424", "424", "418", "418", "428", "428", "412", "412", "412", "412", "412", "412", "412", "412", "413", "413", "413", "413", "413", "413", "411", "411", "411", "411", "411",
+            "411", "411", "411", "421", "421", "421", "421", "421", "421", "421", "421", "421", "421", "419", "419", "419", "419", "425", "425", "420", "420", "414", "414", "414", "414", "414", "414", "414", "414", "414", "414", "414", "414"
+    };
+
+    String [] fcKindCodeList = {"_", "00", "00", "01", "01", "02", "02", "00", "00", "00", "00", "02", "02", "00", "00", "01", "01", "02", "02", "03", "03", "04", "04", "01", "01", "04", "04", "05", "05", "01", "01", "05", "05", "06", "06", "07", "07", "02", "02", "03", "03", "04", "04", "05", "05", "06", "06", "01", "01", "02", "02", "00", "00", "02", "02", "01", "01", "02", "02", "03", "03", "06", "06", "07", "07", "12", "12"
+    };
+    String [] fcRanksList = {"_", "상품","중품","S과","M과","S과","M과","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","상품","중품","L과","M과","L과","M과","상품","중품","L과","M과","상품","중품","L과","M과"
+    };
+    String [] fcImageList = {"_", "tangerine", "tangerine", "tangerine", "tangerine", "tangerine", "tangerine", "persimmon", "persimmon", "lemon", "lemon", "banana", "banana", "mango", "mango", "pear", "pear", "pear", "pear", "pear", "pear", "pear", "pear", "whiteprunuspersica", "whiteprunuspersica", "prunuspersica", "prunuspersica", "prunuspersica", "prunuspersica", "apple", "apple", "apple", "apple", "apple", "apple", "apple", "apple", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "orange", "kiwi", "kiwi", "kiwi", "kiwi", "cherry", "cherry", "pineapple", "pineapple", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "grape", "shinemuscat", "shinemuscat"
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,16 +48,27 @@ public class fruitActivity extends AppCompatActivity {
             }
         });
 
-        // 'button1' 버튼 클릭 이벤트 처리
-        Button button1 = findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
+        // 버튼들을 생성하고 클릭 이벤트 처리 함수 호출
+        createButtons();
+    }
+
+    // 버튼 생성 및 클릭 이벤트 처리 함수
+    private void createButtons() {
+        for (int i = 1; i <= 42; i++) {
+            createButton(i);
+        }
+    }
+
+    // 각 버튼의 생성 및 클릭 이벤트 처리 함수
+    private void createButton(final int index) {
+        Button button = findViewById(getResources().getIdentifier("button" + index, "id", getPackageName()));
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                keyItemCode = "411";
-                keyKindCode = "05";
-                keyRanks = "상품";
-                keyImage = "rice";
-                // 'button1'을 시작하도록 변경
+                keyItemCode = fcItemCodeList[index];
+                keyKindCode = fcKindCodeList[index];
+                keyRanks = fcRanksList[index];
+                keyImage = fcImageList[index];
                 Intent intent = new Intent(fruitActivity.this, guideFruitActivity.class);
                 startActivity(intent);
             }
