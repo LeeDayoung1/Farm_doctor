@@ -42,7 +42,7 @@ public class guideSpecialcropActivity extends AppCompatActivity {
         unit = (TextView) findViewById(R.id.textView15);
         ranks = (TextView) findViewById(R.id.textView20);
         errorText = (TextView) findViewById(R.id.textView18);
-        //tip = (TextView) findViewById(R.id.textView14);
+        tip = (TextView) findViewById(R.id.textView14);
         image = (ImageView) findViewById(R.id.imageView);
 
 
@@ -125,6 +125,11 @@ public class guideSpecialcropActivity extends AppCompatActivity {
                 while(resultSet_ranks.next()){
                     reranks += resultSet_ranks.getString(1);
                 }
+
+                ResultSet resultSet_tip = statement.executeQuery("SELECT tip FROM tips WHERE item_code = '" + specialcropActivity.keyItemCode + "'");
+                while(resultSet_tip.next()){
+                    retip += resultSet_tip.getString(1);
+                }
                 reerror = "";
             }
             catch(Exception e){
@@ -145,6 +150,7 @@ public class guideSpecialcropActivity extends AppCompatActivity {
             itemName.setText(reitemName);
             unit.setText(reunit);
             ranks.setText(reranks);
+            tip.setText(retip);
             errorText.setText(reerror);
             image.setImageResource(getResources().getIdentifier(keyImage, "drawable", getPackageName()));
 

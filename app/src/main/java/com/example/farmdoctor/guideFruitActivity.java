@@ -40,7 +40,7 @@ public class guideFruitActivity extends AppCompatActivity {
         unit = (TextView) findViewById(R.id.textView15);
         ranks = (TextView) findViewById(R.id.textView20);
         errorText = (TextView) findViewById(R.id.textView18);
-        //tip = (TextView) findViewById(R.id.textView14);
+        tip = (TextView) findViewById(R.id.textView14);
         image = (ImageView) findViewById(R.id.imageView);
 
         new guideFruitActivity.Task().execute();
@@ -123,6 +123,12 @@ public class guideFruitActivity extends AppCompatActivity {
                 while(resultSet_ranks.next()){
                     reranks += resultSet_ranks.getString(1);
                 }
+
+                ResultSet resultSet_tip = statement.executeQuery("SELECT tip FROM tips WHERE item_code = '" + fruitActivity.keyItemCode + "'");
+                while(resultSet_tip.next()){
+                    retip += resultSet_tip.getString(1);
+                }
+
                 reerror = "";
             }
             catch(Exception e){
@@ -134,6 +140,7 @@ public class guideFruitActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             Log.d("MySQLAsyncTask", "onPostExecute: ");
+            tip.setText(retip);
             day2.setText(reday2);
             day3.setText(reday3);
             day7.setText(reday7);
