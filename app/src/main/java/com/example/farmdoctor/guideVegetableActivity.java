@@ -74,7 +74,7 @@ public class guideVegetableActivity extends AppCompatActivity {
         protected Void doInBackground(Void...voids) {
             try{
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection connection = DriverManager.getConnection("jdbc:mysql://172.30.1.34:3306/farmer", "yeon", "jeongyeon");
+                Connection connection = DriverManager.getConnection("jdbc:mysql://172.30.1.16:3306/farmer", "yeon", "jeongyeon");
                 Statement statement = connection.createStatement();
 
                 ResultSet resultSet_day2 = statement.executeQuery("SELECT day2 FROM vegetable WHERE item_code = '" + vegetableActivity.keyItemCode + "' AND kind_code = '" + vegetableActivity.keyKindCode + "' AND ranks = '" + vegetableActivity.keyRanks + "'");
